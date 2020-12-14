@@ -20,3 +20,5 @@ const errorHandler = error => {
     if (error.syscall !== 'listen') {
     throw error;
     }
+
+    const address = server.address();
