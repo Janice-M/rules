@@ -19,7 +19,7 @@ app.use((req, res, next) => {
 });
 app.use((req, res, next) => {
     console.log('Response sent successfully!');
-  });
+});
 
 
 module.exports = app;
