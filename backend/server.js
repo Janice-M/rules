@@ -33,6 +33,8 @@ const errorHandler = error => {
             process.exit(1);
             break;
         default:
-            throw error;
+            throw ;a;
         }
     };
+
+const server = http
