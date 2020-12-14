@@ -9,4 +9,5 @@ const normalizePort = val => {
     }
     if (port >= 0) {
         return port;
-      }
+    }
+    return false ;
