@@ -6,4 +6,4 @@ const normalizePort = val => {
 
     if (isNaN(port)) {
         return val;
-      }
+    }
