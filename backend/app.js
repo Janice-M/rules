@@ -3,7 +3,8 @@ const express = require('express');
 const app = express();
 
 
-app.use((req,res)=> {
-    res.json({message: 'Hey Rafiki yangu, your message was successful'})
-})
+app.use((req, res, next) => {
+    console.log('Request received!');
+    next();
+});
 module.exports = app;
