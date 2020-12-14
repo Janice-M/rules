@@ -22,3 +22,4 @@ const errorHandler = error => {
     }
 
     const address = server.address();
+    const bind = typeof address === 'string' ? 'pipe ' + address : 'port: ' + port;
