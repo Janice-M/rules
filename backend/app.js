@@ -18,7 +18,7 @@ app.use((req, res, next) => {
     next();
 });
 app.use((req, res, next) => {
-    console.log('Response sent successfully!');
+    console.log('Response sent successfully');
 });
 
 
