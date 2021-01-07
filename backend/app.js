@@ -4,7 +4,7 @@ const app = express();
 
 
 app.use((req, res, next) => {
-    console.log('Request received Rafiki!');
+    console.log('Request received');
     next();
 });
 
