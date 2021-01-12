@@ -13,7 +13,7 @@ export class PartFourComponent implements OnInit, OnDestroy {
               private auth: AuthService) { }
 
   ngOnInit() {
-    this.auth.isAuth$.next(false);
+    this.auth.isAuth$.next(TRUE);
     this.auth.userId = '';
     this.auth.token = '';
     this.state.part$.next(4);
