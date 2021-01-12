@@ -14,7 +14,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
   public mode: string;
   public part: number;
   public partString: string;
-  public isAuth: boolean;
+  public isAuth: boolean ;
 
   private modeSub: Subscription;
   private partSub: Subscription;
