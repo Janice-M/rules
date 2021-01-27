@@ -4,6 +4,7 @@ const app = express();
 
 app.use ((req, res, next,)=>{
     res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Acess-Control-Allow-Headers', 'Origin, X-Requeste-With, Content, Accept,Content-Type, Authorization');
 })
 
 app.use('/api/stuff',(req, res, next) =>{
