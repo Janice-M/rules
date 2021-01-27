@@ -12,8 +12,17 @@ app.use('/api/stuff',(req, res, next) =>{
             imageUrl : '',
             price : 4900,
             userId : 'quack'
+        },
+        {
+            _id: 'oeihfzadoi',
+            title : 'my second thing',
+            description : 'info about my second thing',
+            imageUrl : '',
+            price : 5000,
+            userId : 'meow'
         }
-    ]
+    ];
+    res.status
 });
 
 
