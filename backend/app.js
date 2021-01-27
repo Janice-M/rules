@@ -4,7 +4,9 @@ const app = express();
 
 app.use('/api/stuff',(req, res, next) =>{
 
-    const stuff
+    const stuff = [
+        
+    ]
 });
 
 
