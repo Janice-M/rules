@@ -10,6 +10,8 @@ app.use ((req, res, next,)=>{
     next();
 })
 
+app.use(bodyParser());
+
 app.use('/api/stuff',(req, res, next) =>{
 
     const stuff = [
