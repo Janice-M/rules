@@ -22,7 +22,7 @@ app.use('/api/stuff',(req, res, next) =>{
             userId : 'meow'
         }
     ];
-    res.status
+    res.status(200).json(stuff);
 });
 
 
